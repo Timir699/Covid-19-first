@@ -1,0 +1,866 @@
+/*------------------------------------------------------------------------*/
+/*Google Fonts CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800&display=swap');
+
+/*------------------------------------------------------------------------*/
+/*Google Fonts CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*Universal CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli', sans-serif;
+}
+ul,li,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	color: #fff
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body {
+
+}
+button:focus{
+	outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+/*------------------------------------------------------------------------*/
+/*Universal CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*Header CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar-nav .nav-item .nav-link {
+	padding: 0px;
+	margin-right: 40px;
+	color: #e6e6e6;
+	font-weight: 700;
+	font-size: 18px;
+	transition: all linear .3s;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: #ff9171;
+}
+.header {
+	/*background: #000;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 10px;
+}
+.navbar-toggler-icon {
+	color: #e6e6e6;
+}
+.navfixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 !important;
+    background: rgba(64, 64, 64, .7) !important;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
+    transition: all linear 0.5s;
+    z-index: 99999;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+/*Header CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*Banner CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.banner {
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner_overlay {
+	padding: 200px 0px 120px 0px;
+	/*height: 100vh;*/
+	/*background: rgba(230, 230, 230, .6);*/
+	background: rgba(0, 0, 0, .7);
+
+}
+.banner .banner_content h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: #e6e6e6;
+	letter-spacing: 2px;
+}
+.banner .banner_content h4{
+	font-size: 32px;
+	font-weight: 700;
+	color: #e6e6e6;
+	padding: 0px 0px 10px 0px;
+	letter-spacing: 2px;
+}
+.banner .banner_content p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #e6e6e6;
+	margin-left: 22%;
+	margin-right: 22%;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+}
+.banner .banner_content a {
+	color: #e6e6e6;
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 18px;
+	transition: all linear .3s;
+	background: transparent;
+	border: 2px solid #175c86;
+	letter-spacing: 2px;
+}
+.banner .banner_content a:hover {
+	background: #175c86;
+	color: #e6e6e6;
+}
+
+/*------------------------------------------------------------------------*/
+/*Banner CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------*/
+/*About CSS Starts*/
+/*------------------------------------------------------------------------*/
+.about {
+	background: #eef7f6;
+	padding: 50px 0px;
+}
+.about .abt_con {
+	padding-top: 100px;
+}
+.about .abt_con h4 {
+	color: #ff9171;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.about .abt_con h2 {
+	font-size: 32px;
+	color: #5e5151;
+	font-weight: 600;
+	padding: 5px 0px 5px 0px;
+	letter-spacing: 2px;
+}
+.about .abt_con p {
+	color: #070606;
+	font-size: 18px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+	
+}
+.about .abt_con a {
+	color: #5e5151;
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 18px;
+	transition: all linear .3s;
+	background: transparent;
+	border: 2px solid #ff9171;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.about .abt_con a:hover {
+	background: #ff9171;
+	color: #fff;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*About CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*symptoms CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.symptoms {
+	background: #ebebeb;
+	padding: 50px 0px;
+}
+.symptoms h4 {
+	color: #5e5151;
+	font-weight: 700;
+	text-align: center;
+	font-size: 42px;
+	letter-spacing: 2px;
+	padding-bottom: 100px;
+}
+.symptoms .sym_con {
+	background: #fff;
+	transition: all linear .1s;
+
+}
+.symptoms .symptomps_con {
+	position: relative;
+	transition: all linear .3s;
+}	
+.symptoms .symptoms_img {
+	position: absolute;
+	top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.symptoms .sym_con h3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #5E5151;
+	padding-top: 55px;
+	padding-bottom: 10px;
+}
+.symptoms .sym_con p {
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	margin: 0px 20px;
+}
+.symptoms .symptoms_img img:hover .sym_con{
+	background: #000;
+}
+.symptoms .symptomps_con:hover {
+	margin-top: -10px;
+	cursor: pointer;
+	box-shadow: 0px 0px 30px 2px #2f80a5;
+}
+.symptoms .sym_con:hover {
+	background: #2f80a5;
+}
+.symptoms .symptomps_con:hover .sym_con h3 {
+	color: #fff;
+}
+.symptoms .symptomps_con:hover .sym_con p {
+	color: #fff;
+}
+
+/*------------------------------------------------------------------------*/
+/*symptoms CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------*/
+/*do CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.do {
+	background: url(../images/prevention.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+.do_overlay {
+	padding: 50px 0px;
+	/*background: rgba(0, 0, 0, .7);*/
+	background: rgba(5, 50, 71, .8);
+}
+.do_con {
+	padding-top: 30px;
+	padding-left: 0px;
+}
+.do .do_overlay h4 {
+	color: #ebebeb;
+    font-weight: 700;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.do_p {
+	font-size: 18px;
+	padding-top: 35px;
+	color: #f8f8f8;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+/*------------------------------------------------------------------------*/
+/*do CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*community CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.community {
+	padding: 50px 0px;
+	
+}
+.community h4 {
+	color: #5e5151;
+	font-weight: 700;
+	text-align: center;
+	font-size: 42px;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+}
+.community_content {
+	position: relative;
+	transition: all linear .3s;
+}
+.community_content .community_img {
+	position: relative;
+	transition: all linear .3s;
+}
+.community_content .community_img .img_overlay {
+	height: 0%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(44, 120, 143, .9);
+	/*background: rgba(104, 150, 156, .9);*/
+	opacity: 0;
+	transition: all linear .2s;
+}
+.community_img:hover .img_overlay {
+	opacity: 1;
+	height: 100%;
+}
+.community_con {
+	background: rgba(44, 120, 143, .7);
+	/*background: rgba(104, 150, 156, .8);*/
+	height: 25%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: all linear .3s;
+	/*opacity: 0;*/
+}
+.community_img:hover .community_con {
+	/*opacity: 1;*/
+	height: 60%;
+}
+.community_con h5 {
+	/*color: #090808;*/
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding-top: 20px;
+}
+.community_con p {
+	color: #ff9171;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*community CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------*/
+/*Contact CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.contact {
+	background: url(../images/clay-banks-_Jb1TF3kvsA-unsplash.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.contact_overlay {
+	padding: 50px 0px;
+	background: rgba(15, 40, 44, .6);
+}
+
+.contact_left h5 {
+	color: #ebebeb;
+	font-size: 32px;
+	font-weight: 700;
+}
+.contact_left p {
+	color: #ebebeb;
+	margin-right: 25%;
+	font-size: 22px;
+	font-weight: 500;
+	/*padding: 20px 0px;*/
+}
+.contact_addr i {
+	color: #ebebeb;
+	font-size: 22px;
+	padding-top: 6px;
+}
+.contact_addr p {
+	color: #ebebeb;
+	font-size: 22px;
+}
+.contact_left .contact_para {
+	padding: 20px 0px;
+}
+.contact_form {
+	background: #153237;
+	padding: 30px 50px;
+	border-radius: 5px;
+}
+.form-group label {
+	color: #fff;
+}
+.form-control:focus {
+	border: 1px solid #0E2428;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0E2428;
+    border-color: #007bff;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.5);
+}
+/*------------------------------------------------------------------------*/
+/*Contact CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------*/
+/*Footer CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.footer {
+	background: #0C2225;
+	padding: 10px 0px;
+}
+.footer p {
+	color: #ebebeb;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+/*------------------------------------------------------------------------*/
+/*Footer CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*Responsive CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.community_con h5 {
+		padding-top: 10px;
+	}
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.navbar-nav {
+		background: rgba(64, 64, 64, .7);
+	}
+	.banner .banner_content h1 {
+    	font-size: 32px;
+    }
+    .banner .banner_content h4 {
+    	font-size: 22px;
+	}
+	.banner .banner_content p {
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}   
+
+	.banner_overlay {
+    	padding: 150px 0px 50px 0px;
+    } 
+    .banner .banner_content a {
+	    height: 35px;
+	    width: 125px;
+	    line-height: 31px; 
+	    font-weight: 500;
+	    font-size: 12px;
+	}
+	.about .abt_con h4 {
+    	font-size: 20px;
+	}
+	.about .abt_con h2 {
+    	font-size: 24px;
+	}
+	.about .abt_con p {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.about .abt_con a {
+		height: 35px;
+	    width: 125px;
+	    line-height: 31px; 
+	    font-weight: 500;
+	    font-size: 12px;
+	}
+	.symptoms .symptoms_img {
+    	top: -15%;
+	}
+	.symptoms .sym_con p {
+    	letter-spacing: 0px; 
+	}
+	.symptoms .sym_con h3 {
+	    font-size: 20px;
+	    padding-top: 65px;
+	}
+	.symptoms h4 {
+	    font-size: 28px;
+	    padding-bottom: 70px;
+	}
+	.do .do_overlay h4 {
+   		font-size: 28px;
+	}
+	.do_con {
+    	padding-top: 20px;
+    	text-align: center;
+	}
+	.do_p {
+	    font-size: 12px;
+	    padding-top: 16px;
+	    letter-spacing: 1px;
+	}
+	.community h4 {
+		font-size: 28px;
+	}
+	.community_con h5 {
+		font-size: 24px;
+		letter-spacing: 1px;
+    	padding-top: 6px;
+	}
+	.community_con p {
+		font-size: 14px;
+	}
+	.contact_left h5 {
+		font-size: 24px;
+	}
+	.contact_left p {
+	    margin-right: 0%; 
+	    font-size: 16px;
+	}    
+	.footer p {
+		font-size: 14px;
+	}
+
+
+ }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.navbar-nav {
+		background: rgba(64, 64, 64, .7);
+	}
+	.banner .banner_content h1 {
+    	font-size: 32px;
+    }
+    .banner .banner_content h4 {
+    	font-size: 22px;
+	}
+	.banner .banner_content p {
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}   
+	.banner_overlay {
+    	padding: 150px 0px 50px 0px;
+    } 
+    .banner .banner_content a {
+	    height: 35px;
+	    width: 125px;
+	    line-height: 31px; 
+	    font-weight: 500;
+	    font-size: 12px;
+	}
+	.about .abt_con {
+	    padding-top: 30px;
+	    text-align: center;
+	}
+	.about .abt_con h2 {
+	    font-size: 26px;
+	    padding: 0px 0px 0px 0px; 
+	    letter-spacing: 1px;
+	}
+	.about .abt_con h4 {   
+	    font-size: 22px;
+	    letter-spacing: 1px;
+	}
+	.about .abt_con p {
+	    font-size: 14px;
+	    padding-bottom: 15px;
+	    letter-spacing: 1px;
+	}
+	.about .abt_con a { 
+	    height: 35px;
+	    width: 100px;   
+	    line-height: 32px;
+	    border-radius: 5px;   
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}
+	.abt_img {
+		text-align: center;
+	}
+	.symptoms h4 {
+	    font-size: 32px;
+	    letter-spacing: 1px;
+	    padding-bottom: 0px;
+	    padding-bottom: 50px;
+	}
+	.symptoms .symptomps_con:hover {
+		margin-top: 0px;
+		cursor: pointer;
+		box-shadow: none;
+	}
+	.symptoms .sym_con:hover {
+		background: #2f80a5;
+	}
+	.symptoms .symptomps_con {
+    	margin-top: 0px;
+	}
+	.symptoms {
+    	padding: 20px 0px;
+	}
+	.symptoms .symptomps_con {
+    	margin-top: 0px;
+    	margin-bottom: 70px;
+	}
+	.symptoms .sym_con h3 {
+		padding-top: 60px;
+	}
+	.do .do_overlay h4 {
+	    font-size: 32px;
+	    letter-spacing: 1px;
+	    padding-bottom: 0px;
+	}
+	.do_con {
+    	/*padding-top: 20px;*/
+    	text-align: center;
+	}
+	.do_p {
+		letter-spacing: 1px;
+		font-size: 14px;
+	}
+	.do_overlay {
+    	padding: 20px 0px;
+    }
+	.do .do_overlay h4 {
+	    font-size: 32px;
+	    letter-spacing: 1px;
+	    padding-bottom: 0px;
+	}
+	.community {
+    	padding: 20px 0px;
+	}
+	.community h4 {
+		font-size: 32px;
+    	letter-spacing: 1px;
+    	padding-bottom: 0px;
+	}
+	.contact_form {
+		margin-top: 50px;
+	}
+	.contact_overlay {
+    	padding: 20px 0px;
+	}
+	.footer p {
+		font-size: 14px;
+	}
+	.contact_left .contact_para {
+    	padding: 5px 0px;
+	}
+
+ }
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.navbar-nav {
+		background: rgba(64, 64, 64, .7);
+	}
+	.banner .banner_content h1 {
+    	font-size: 24px;
+    }
+    .banner .banner_content h4 {
+    	font-size: 20px;
+	}
+	.banner .banner_content p {
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}   
+	.banner_overlay {
+    	padding: 150px 0px 50px 0px;
+    } 
+    .banner .banner_content a {
+	    height: 35px;
+	    width: 125px;
+	    line-height: 31px; 
+	    font-weight: 500;
+	    font-size: 12px;
+	}
+	.abt_img {
+		text-align: center;
+	}
+	.about .abt_con {
+	    padding-top: 30px;
+	    text-align: center;
+	}
+	.about .abt_con h2 {
+	    font-size: 26px;
+	    padding: 0px 0px 0px 0px; 
+	    letter-spacing: 1px;
+	}
+	.about .abt_con h4 {   
+	    font-size: 22px;
+	    letter-spacing: 1px;
+	}
+	.about .abt_con p {
+	    font-size: 14px;
+	    padding-bottom: 15px;
+	    letter-spacing: 1px;
+	}
+	.about .abt_con a { 
+	    height: 35px;
+	    width: 100px;   
+	    line-height: 32px;
+	    border-radius: 5px;   
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}
+	.symptoms h4 {
+	    font-size: 22px;
+	    letter-spacing: 1px;
+	    padding-bottom: 0px;
+	    padding-bottom: 70px;
+	}
+	.symptoms {
+    	padding: 20px 0px;
+	}
+	.symptoms .symptomps_con {
+    	margin-top: 70px;
+	}
+	.symptoms .sym_con {
+		margin-bottom: 100px;
+	}
+	.symptoms .sym_con h3 {
+		padding-top: 60px;
+	}
+	.symptoms .symptomps_con:hover {
+		margin-top: 0px;
+		cursor: pointer;
+		box-shadow: none;
+	}
+	.symptoms .sym_con:hover {
+		background: #2f80a5;
+	}
+	.symptoms .symptomps_con {
+    	margin-top: 0px;
+    	margin-bottom: 70px;
+	}
+	.symptoms .symptoms_img {
+		top: -18%;
+	}
+	.do .do_overlay h4 {
+	    font-size: 32px;
+	    letter-spacing: 1px;
+	    padding-bottom: 0px;
+	}
+	.do_con {
+    	/*padding-top: 20px;*/
+    	text-align: center;
+	}
+	.do_p {
+		letter-spacing: 1px;
+		font-size: 14px;
+		text-align: center;
+	}
+	.do_overlay {
+    	padding: 20px 0px;
+    }
+	.do .do_overlay h4 {
+	    font-size: 22px;
+	    letter-spacing: 1px;
+	    padding-bottom: 0px;
+	}
+	.community_img {
+		margin-bottom: 30px;
+	}
+	.community {
+    	padding: 20px 0px;
+	}
+	.community h4 {
+		font-size: 24px;
+    	letter-spacing: 1px;
+    	padding-bottom: 20px;
+	}
+	.contact_form {
+		margin-top: 50px;
+	}
+	.contact_overlay {
+    	padding: 20px 0px;
+	}
+	.contact_left h5 {
+		font-size: 26px;
+	}
+	.contact_left .contact_para {
+		font-size: 16px;
+	}
+	.contact_addr p {
+		font-size: 16px;
+    	padding-top: 5px;
+	}
+	.footer p {
+		font-size: 14px;
+	}
+	.contact_left .contact_para {
+    	padding: 5px 0px;
+	}
+
+ }
+
+
+
+
+
+
+/*------------------------------------------------------------------------*/
+/*Responsive CSS Ends*/
+/*------------------------------------------------------------------------*/
